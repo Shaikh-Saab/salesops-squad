@@ -298,3 +298,14 @@ Do these one at a time and wait for my confirmation after each.
 6. **Packaging.** Write the README and case-study draft per section 14.
 
 Start with task 1 only, then stop and report.
+
+## 17. Added requirements (from chat, 21 Nov 2026)
+
+These extend tasks 5 and 6. They do not replace anything above.
+
+1. **Run locally.** The dashboard runs on localhost with one command (`npm run dev`).
+2. **QR access on the same network.** When running locally, the dev server listens on the LAN and prints the local network URL as a QR code, so a phone on the same Wi-Fi can scan and open it.
+3. **Live public link.** Deploy the dashboard as a static site (GitHub Pages preferred, via a GitHub Actions workflow) so it works from anywhere. Generate a QR code image for the live URL (`docs/qr-live.png`) and show it in the README.
+4. **Public GitHub repo.** The repo is public on the user's GitHub account. That means the hard rules in section 1 apply to every commit: mock data only, no secrets, `.env` never committed.
+5. **README "How to use" for Windows and macOS.** Prerequisites (Git, Node LTS, Python 3), clone, seed data, run the dashboard, open via QR, and deploy. Give terminal commands for both PowerShell (Windows) and Terminal (macOS) wherever they differ (for example, venv activation and copying `.env.example`).
+6. **Scope note.** The live site is the Agent Control Tower (demo) dashboard reading the CSV data source, so no keys are needed in the browser. The Copilot Studio agents themselves run in Microsoft's cloud. If a demo channel link for them is available, it can be linked from the README, labelled with its availability status (section 12).
