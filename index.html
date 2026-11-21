@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Agent Control Tower (demo): audit, cost and approval view for the SalesOps Squad agents. Mock data; metrics simulated." />
+    <title>Agent Control Tower (demo)</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232a78d6'/><path d='M9 23V12M16 23V8M23 23v-7' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>" />
+    <script type="module" crossorigin src="/salesops-squad/assets/index-BWRmb8Ai.js"></script>
+    <link rel="stylesheet" crossorigin href="/salesops-squad/assets/index-D1x74hO4.css">
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <div class="title-row">
+          <h1>Agent Control Tower <span class="tag">demo</span></h1>
+          <span class="source" id="source"></span>
+        </div>
+        <p class="sub">Audit, cost and approval view for the SalesOps Squad agents (orchestrator + 3 specialists).</p>
+        <p class="notice" role="note"><strong>Cost and risk are simulated metrics for demonstration.</strong>
+          Token counts and costs are estimates from an assumed price model, not Microsoft billing. All data is fictional. This is not Microsoft Agent 365.</p>
+      </div>
+    </header>
+
+    <main class="wrap" id="app">
+      <section class="tiles" id="tiles" aria-label="Summary"></section>
+
+      <div class="grid2">
+        <section class="card">
+          <h2>Runs per agent</h2>
+          <p class="hint">Split by outcome</p>
+          <div class="legend" id="legend-runs"></div>
+          <div class="chart-box"><canvas id="chart-runs" role="img" aria-label="Stacked bar chart of runs per agent by outcome"></canvas></div>
+          <details><summary>Show as table</summary><div class="table-wrap" id="table-runs"></div></details>
+        </section>
+        <section class="card">
+          <h2>Cost per successful run</h2>
+          <p class="hint">Estimated USD per agent (simulated)</p>
+          <div class="chart-box"><canvas id="chart-cost" role="img" aria-label="Bar chart of estimated cost per successful run by agent"></canvas></div>
+          <details><summary>Show as table</summary><div class="table-wrap" id="table-cost"></div></details>
+        </section>
+      </div>
+
+      <div class="grid2">
+        <section class="card">
+          <h2>Approval queue <span class="count" id="queue-count"></span></h2>
+          <p class="hint">Follow-up drafts waiting for a human. Buttons here are a <strong>local demo only</strong>; real approvals run in the Power Automate approval flow and nothing is sent from this page.</p>
+          <div id="queue"></div>
+        </section>
+        <section class="card">
+          <h2>Risk flags <span class="count" id="risk-count"></span></h2>
+          <p class="hint">Runs that touched customer data without human approval, or ended escalated or failed.</p>
+          <div class="table-wrap" id="risk"></div>
+          <details class="rule"><summary>How the risk score works</summary>
+            <ul>
+              <li>Start at 0.</li>
+              <li>+2 if the run touched customer data.</li>
+              <li>+3 if a customer-facing action (Follow-up Agent) has no human approval.</li>
+              <li>+1 if the outcome was failed or escalated.</li>
+              <li>Level: low 0–1, medium 2–3, high 4+.</li>
+            </ul>
+          </details>
+        </section>
+      </div>
+
+      <section class="card">
+        <h2>Recent runs</h2>
+        <p class="hint">Last 20 agent runs, newest first</p>
+        <div class="table-wrap" id="recent"></div>
+      </section>
+
+      <section class="card share">
+        <div>
+          <h2>Open on another device</h2>
+          <p class="hint">Scan to open this page. On localhost this only works on the same Wi-Fi; use the network address printed by <code>npm run dev</code>.</p>
+          <p class="mono" id="share-url"></p>
+        </div>
+        <canvas id="share-qr" width="160" height="160" aria-label="QR code for this page"></canvas>
+      </section>
+
+      <footer class="foot">Agent Control Tower (demo) · SalesOps Squad portfolio project · mock data, simulated metrics</footer>
+    </main>
+  </body>
+</html>

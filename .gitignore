@@ -1,0 +1,28 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / dashboard
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# Generated seed CSVs are committed by default (mock data only).
+# Uncomment to ignore them instead:
+# seed/output/*.csv
