@@ -1,0 +1,16 @@
+account_id,name,industry,region,owner,health,last_contact_date
+ACC-001,Contoso,Manufacturing,EMEA,Allison Hill,amber,2026-11-15
+ACC-002,Fabrikam,Technology,North America,Noah Rhodes,green,2026-11-18
+ACC-003,Northwind Traders,Retail,North America,Angie Henderson,green,2026-11-09
+ACC-004,Tailspin Toys,Consumer Goods,APAC,Daniel Wagner,red,2026-10-11
+ACC-005,Wingtip Toys,Consumer Goods,EMEA,Cristian Santos,green,2026-11-12
+ACC-006,Adventure Works,Sporting Goods,North America,Connie Lawrence,amber,2026-11-01
+ACC-007,Litware,Software,EMEA,Abigail Shaffer,green,2026-11-16
+ACC-008,Woodgrove Bank,Financial Services,North America,Gina Moore,amber,2026-11-06
+ACC-009,Proseware,Software,APAC,Gabrielle Davis,green,2026-11-19
+ACC-010,Lucerne Publishing,Media,EMEA,Ryan Munoz,red,2026-10-19
+ACC-011,Alpine Ski House,Hospitality,EMEA,Monica Herrera,green,2026-11-13
+ACC-012,Coho Winery,Food & Beverage,North America,Jamie Arnold,amber,2026-10-25
+ACC-013,Fourth Coffee,Food & Beverage,LATAM,Lisa Hensley,green,2026-11-17
+ACC-014,Margie's Travel,Travel,APAC,Michele Williams,red,2026-11-03
+ACC-015,Trey Research,Healthcare,North America,Dylan Miller,amber,2026-07-04

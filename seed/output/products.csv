@@ -1,0 +1,21 @@
+sku,name,list_price,min_qty,max_discount_pct
+SKU-01,Sales Cloud Starter licence,79.00,1,15
+SKU-02,Sales Cloud Standard licence,149.00,1,10
+SKU-03,Sales Cloud Premium licence,79.00,25,5
+SKU-04,Service Desk licence,2500.00,10,5
+SKU-05,Field Service add-on,49.00,1,10
+SKU-06,Analytics Workspace licence,149.00,25,25
+SKU-07,Data Connector pack,49.00,25,10
+SKU-08,API Gateway add-on,1200.00,10,10
+SKU-09,Storage block (1 TB),899.00,25,15
+SKU-10,Security Monitor add-on,49.00,1,20
+SKU-11,Onboarding workshop (day),299.00,5,10
+SKU-12,Sales Cloud Pro licence,480.00,5,10
+SKU-13,Mobile Sales add-on,149.00,5,5
+SKU-14,Forecasting add-on,79.00,10,5
+SKU-15,Quote Builder add-on,299.00,5,25
+SKU-16,Partner Portal licence,199.00,1,20
+SKU-17,Premier support (annual),1200.00,1,20
+SKU-18,Training credits (pack of 10),79.00,25,15
+SKU-19,Sandbox environment,2500.00,5,25
+SKU-20,Migration service (day),149.00,1,5

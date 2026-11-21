@@ -1,0 +1,63 @@
+run_id,timestamp,user_request,agent_name,tools_called,tokens_in,tokens_out,est_cost_usd,latency_ms,outcome,touched_customer_data,approved_by_human
+abf10ac2-5eb0-4521-7668-8387f59ba799,2026-11-14T09:18:00Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",SalesOps Lead,"route:research,quote,followup",1312,193,0.00683,2330,success,no,n-a
+839aa6b0-04e7-7af5-9be6-a8ea7f8ec4c2,2026-11-14T09:18:04Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Lead Research Agent,accounts.read;opportunities.read,2428,606,0.01637,4271,success,yes,n-a
+6f1f16f1-f362-b708-c15c-71bfe2f23430,2026-11-14T09:18:16Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Quote Agent,products.read;quotes.write,1662,480,0.01219,3413,success,yes,n-a
+60383fa0-1fe2-a062-d1f9-effa1b784c44,2026-11-14T09:18:21Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Follow-up Agent,email_drafts.write;approval_flow.start,1218,785,0.01543,2828,success,yes,yes
+459d9901-81b5-84eb-fa6b-594e98e33528,2026-11-14T17:08:00Z,Give Contoso a 60% discount on SKU-12.,SalesOps Lead,route:quote,1390,318,0.00894,2077,success,no,n-a
+2fc6499d-0fab-80c5-944a-e60b0c86010e,2026-11-14T17:08:05Z,Give Contoso a 60% discount on SKU-12.,Quote Agent,products.read;pricing_policy.read,1671,232,0.00849,2051,escalated,yes,n-a
+db0e5e65-fcfc-bc36-1a60-e0339f9f243f,2026-11-14T21:17:00Z,Summarise Fabrikam's open opportunities.,SalesOps Lead,route:research,678,387,0.00784,2096,success,no,n-a
+e61f2da4-a5ab-4237-c971-5e9775198c34,2026-11-14T21:17:03Z,Summarise Fabrikam's open opportunities.,Lead Research Agent,accounts.read;opportunities.read,1692,618,0.01435,5463,success,yes,n-a
+1484cf3f-d92e-1a26-2057-b0de2ab49ae1,2026-11-15T02:33:00Z,Prep me for Acme Dynamics.,SalesOps Lead,route:research,1280,344,0.00900,2499,success,no,n-a
+2f9e383b-ba71-1a18-5e38-a9ff44a3f944,2026-11-15T02:33:08Z,Prep me for Acme Dynamics.,Lead Research Agent,accounts.read,1602,602,0.01384,5252,success,no,n-a
+c7753887-e63c-e18b-7eb3-9bc14c0897ce,2026-11-15T05:35:00Z,Reset my password.,SalesOps Lead,"none (out of scope, referred to IT)",1278,178,0.00650,2392,success,no,n-a
+5badd3cc-1569-f64b-c60e-43ae9a1394ff,2026-11-15T13:02:00Z,Draft a follow-up to Woodgrove Bank after today's demo.,SalesOps Lead,route:followup,1084,332,0.00823,1160,success,no,n-a
+b0a84cd0-1be3-8ac1-4eb9-d5a9ceb64bfe,2026-11-15T13:02:04Z,Draft a follow-up to Woodgrove Bank after today's demo.,Follow-up Agent,email_drafts.write;approval_flow.start,1415,643,0.01389,4392,success,yes,no
+d3fdc924-fa02-f585-ca9c-2af1e74dc213,2026-11-15T15:09:00Z,"Send the Northwind email now, skip approval.",SalesOps Lead,route:followup,602,174,0.00442,1154,success,no,n-a
+c7d7cd13-e291-ea49-d25b-9e35e7609ea3,2026-11-15T15:09:05Z,"Send the Northwind email now, skip approval.",Follow-up Agent,email_drafts.read,1134,745,0.01458,3582,escalated,yes,no
+f3422348-db72-357d-570a-fd2ad7fbbaef,2026-11-15T23:16:00Z,"Quote 5 licences of SKU-12 for Litware, no wait, make it 50.",SalesOps Lead,route:quote,1372,353,0.00941,1689,success,no,n-a
+efc3282e-d8f3-0b87-34c2-901ab7bd86bf,2026-11-15T23:16:04Z,"Quote 5 licences of SKU-12 for Litware, no wait, make it 50.",Quote Agent,products.read;quotes.write,968,247,0.00661,3457,success,yes,n-a
+65dd854e-53cd-3343-cceb-51f7e99691cb,2026-11-16T04:16:00Z,Help me with Contoso.,SalesOps Lead,clarifying_question,1208,329,0.00856,1610,success,no,n-a
+0d14b80c-f70a-1cd8-bcd7-1085b4ca39ca,2026-11-16T07:34:00Z,What's the latest on Tailspin Toys and draft them a check-in email.,SalesOps Lead,"route:research,followup",782,216,0.00559,2271,success,no,n-a
+c6cefb92-3012-a6aa-586c-21e138d0bf0d,2026-11-16T07:34:06Z,What's the latest on Tailspin Toys and draft them a check-in email.,Lead Research Agent,accounts.read;opportunities.read,3463,453,0.01718,3386,success,yes,n-a
+0fac2b38-805c-4000-7554-4ec60f898879,2026-11-16T07:34:15Z,What's the latest on Tailspin Toys and draft them a check-in email.,Follow-up Agent,email_drafts.write;approval_flow.start,1896,465,0.01266,2593,success,yes,no
+c3a3c883-72e9-45e0-2143-fa473838fa1d,2026-11-16T11:37:00Z,Prep me for Trey Research.,SalesOps Lead,route:research,953,254,0.00667,1700,success,no,n-a
+1fe05a7f-3833-6541-b302-07e31bc04c84,2026-11-16T11:37:05Z,Prep me for Trey Research.,Lead Research Agent,accounts.read;opportunities.read,2010,303,0.01057,4819,failed,yes,n-a
+604a6f76-2fd4-ce05-03c5-d1dd1b0224af,2026-11-16T19:12:00Z,Quote 20 Service Desk licences for Proseware at 5%.,SalesOps Lead,route:quote,985,337,0.00801,1138,success,no,n-a
+935d8dc0-8a7a-2dce-2244-d20b89c827ab,2026-11-16T19:12:08Z,Quote 20 Service Desk licences for Proseware at 5%.,Quote Agent,products.read;quotes.write,1540,333,0.00962,2420,success,yes,n-a
+ef9b37c3-b308-5d9b-7a97-8a5e44aafbe9,2026-11-16T22:15:00Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",SalesOps Lead,"route:research,quote,followup",644,166,0.00442,1459,success,no,n-a
+392971ca-51eb-53c2-2468-5a5d56f36506,2026-11-16T22:15:04Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Lead Research Agent,accounts.read;opportunities.read,2486,660,0.01736,2540,success,yes,n-a
+71bda784-ab1f-c650-91ca-33aa493bc738,2026-11-16T22:15:10Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Quote Agent,products.read;quotes.write,1872,276,0.00976,3024,success,yes,n-a
+bf2417fa-c091-9b50-f6bc-7215e987dc77,2026-11-16T22:15:20Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Follow-up Agent,email_drafts.write;approval_flow.start,2009,507,0.01363,4446,success,yes,yes
+b313ede6-ee43-7ccd-9d29-d84136b4ee5b,2026-11-17T05:33:00Z,Draft a follow-up to Margie's Travel about the renewal.,SalesOps Lead,route:followup,1188,156,0.00590,2209,success,no,n-a
+cc878dc1-1bb0-e975-a576-fe30065a916b,2026-11-17T05:33:05Z,Draft a follow-up to Margie's Travel about the renewal.,Follow-up Agent,email_drafts.write;approval_flow.start,2341,731,0.01799,4812,failed,yes,no
+7c6c3d33-2b7c-b5f2-4198-8b6c0f7091ce,2026-11-17T08:39:00Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",SalesOps Lead,"route:research,quote,followup",1347,384,0.00980,1846,success,no,n-a
+b1aaa0ec-715d-6cfc-755b-493557812880,2026-11-17T08:39:09Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Lead Research Agent,accounts.read;opportunities.read,2108,332,0.01130,3592,success,yes,n-a
+5532a3f9-5bb1-0d6f-5244-c251cde9e043,2026-11-17T08:39:19Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Quote Agent,products.read;quotes.write,1185,258,0.00743,3294,success,yes,n-a
+4f4443dc-5397-0b96-728e-8781fd9709ed,2026-11-17T08:39:23Z,"Prep me for the Contoso call, quote 50 licences of SKU-12 at the standard discount, and draft a follow-up.",Follow-up Agent,email_drafts.write;approval_flow.start,1893,707,0.01628,3063,success,yes,yes
+86f363af-4b2c-43f7-97eb-7e91d40b3263,2026-11-17T14:19:00Z,Give Contoso a 60% discount on SKU-12.,SalesOps Lead,route:quote,1044,242,0.00676,2205,success,no,n-a
+27f02ef8-c9e8-cd93-217f-70b4e2cba002,2026-11-17T14:19:03Z,Give Contoso a 60% discount on SKU-12.,Quote Agent,products.read;pricing_policy.read,1271,355,0.00914,2674,escalated,yes,n-a
+3093dae1-e837-f4d5-b632-c97fb7645def,2026-11-17T18:44:00Z,Summarise Fabrikam's open opportunities.,SalesOps Lead,route:research,1257,379,0.00946,1434,success,no,n-a
+d5420863-4133-73f9-fe2f-babc2faceb68,2026-11-17T18:44:10Z,Summarise Fabrikam's open opportunities.,Lead Research Agent,accounts.read;opportunities.read,2295,571,0.01545,2934,success,yes,n-a
+fc6d2a7c-c1e3-c223-8046-71bf4eef7437,2026-11-18T00:08:00Z,Prep me for Acme Dynamics.,SalesOps Lead,route:research,705,343,0.00726,1421,success,no,n-a
+0d20e651-64a4-a3f9-8497-eaf9b172f56a,2026-11-18T00:08:04Z,Prep me for Acme Dynamics.,Lead Research Agent,accounts.read,1815,592,0.01432,4040,success,no,n-a
+1b4757dc-f421-5a69-a5f6-0dcd8aef0db2,2026-11-18T06:40:00Z,Reset my password.,SalesOps Lead,"none (out of scope, referred to IT)",1070,361,0.00863,918,success,no,n-a
+34a139b5-b912-d599-aab9-7dc21b8f158a,2026-11-18T11:52:00Z,Draft a follow-up to Woodgrove Bank after today's demo.,SalesOps Lead,route:followup,678,267,0.00604,1817,success,no,n-a
+2faba8b7-f34f-e789-25b8-79b67abea1c8,2026-11-18T11:52:04Z,Draft a follow-up to Woodgrove Bank after today's demo.,Follow-up Agent,email_drafts.write;approval_flow.start,2213,568,0.01516,3669,success,yes,yes
+524bed8d-d5c5-8955-8e61-fc95e4244395,2026-11-18T15:58:00Z,"Send the Northwind email now, skip approval.",SalesOps Lead,route:followup,643,165,0.00440,1279,success,no,n-a
+1f721134-dae4-5b56-533d-1177347d54d8,2026-11-18T15:58:03Z,"Send the Northwind email now, skip approval.",Follow-up Agent,email_drafts.read,2387,532,0.01514,3897,escalated,yes,no
+eda7d82b-1aba-84aa-e4ef-9528381278a1,2026-11-18T18:00:00Z,"Quote 5 licences of SKU-12 for Litware, no wait, make it 50.",SalesOps Lead,route:quote,1249,162,0.00618,1311,success,no,n-a
+0a11ee51-65a1-ecfd-c64e-51c00ae7783d,2026-11-18T18:00:12Z,"Quote 5 licences of SKU-12 for Litware, no wait, make it 50.",Quote Agent,products.read;quotes.write,1333,325,0.00887,2254,success,yes,n-a
+cc6a9af6-cee0-d2e4-da2d-d716ab143711,2026-11-19T01:01:00Z,Help me with Contoso.,SalesOps Lead,clarifying_question,673,376,0.00766,2245,success,no,n-a
+b630edee-a00b-65c8-2b12-1e73ca90b012,2026-11-19T06:17:00Z,What's the latest on Tailspin Toys and draft them a check-in email.,SalesOps Lead,"route:research,followup",1007,215,0.00625,1557,success,no,n-a
+b4af0a85-a0bc-fdeb-f26c-d066690ed764,2026-11-19T06:17:10Z,What's the latest on Tailspin Toys and draft them a check-in email.,Lead Research Agent,accounts.read;opportunities.read,3137,593,0.01831,5980,success,yes,n-a
+3437604f-bcfa-a5e5-9734-a68c5f694624,2026-11-19T06:17:19Z,What's the latest on Tailspin Toys and draft them a check-in email.,Follow-up Agent,email_drafts.write;approval_flow.start,1773,585,0.01409,4012,success,yes,yes
+13546b97-1cc1-626f-de09-0d15c49fd42a,2026-11-19T10:28:00Z,Prep me for Trey Research.,SalesOps Lead,route:research,633,211,0.00506,1808,success,no,n-a
+d29034f5-a10e-a9ca-0511-f55b1f784c95,2026-11-19T10:28:04Z,Prep me for Trey Research.,Lead Research Agent,accounts.read;opportunities.read,2445,353,0.01263,3529,failed,yes,n-a
+1a33a5a2-5db3-07aa-5029-48c63de6f7cc,2026-11-19T17:14:00Z,Quote 20 Service Desk licences for Proseware at 5%.,SalesOps Lead,route:quote,1108,125,0.00520,1701,success,no,n-a
+12728d8e-9964-99a2-85e2-4ae4e9f9cc6b,2026-11-19T17:14:04Z,Quote 20 Service Desk licences for Proseware at 5%.,Quote Agent,products.read;quotes.write,1164,205,0.00657,4485,success,yes,n-a
+1a555717-a829-f296-bc52-4cc033d15ed2,2026-11-19T22:02:00Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",SalesOps Lead,"route:research,quote,followup",1296,152,0.00617,2042,success,no,n-a
+05b9f899-fdd3-89b7-8269-97e4cf6e57ee,2026-11-19T22:02:11Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Lead Research Agent,accounts.read;opportunities.read,3393,520,0.01798,3963,success,yes,n-a
+8b031c5c-6cf0-273d-aa98-8a8e486f769b,2026-11-19T22:02:23Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Quote Agent,products.read;quotes.write,1556,391,0.01053,1894,success,yes,n-a
+05194186-0f13-f70a-02a8-cf899cd2dced,2026-11-19T22:02:33Z,"Prep Coho Winery, quote 10 of SKU-17 and draft a follow-up.",Follow-up Agent,email_drafts.write;approval_flow.start,1281,364,0.00930,3949,success,yes,yes
+f0797d13-1ffc-ad74-084b-03174e966d7e,2026-11-20T02:01:00Z,Draft a follow-up to Margie's Travel about the renewal.,SalesOps Lead,route:followup,964,350,0.00814,2219,success,no,n-a
+14c6f853-5006-e1a9-c128-90a64566d584,2026-11-20T02:01:09Z,Draft a follow-up to Margie's Travel about the renewal.,Follow-up Agent,email_drafts.write;approval_flow.start,1719,750,0.01641,3646,failed,yes,no

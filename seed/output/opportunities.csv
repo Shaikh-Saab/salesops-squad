@@ -1,0 +1,31 @@
+opp_id,account_id,stage,value,close_date,next_step,notes
+OPP-001,ACC-001,Negotiation,24000,2026-12-09,Send SKU-12 quote for 50 licences,Champion is the operations director. Wants standard discount.
+OPP-002,ACC-001,Proposal,9500,2026-12-26,Book technical demo,Evaluating Analytics Workspace against a competitor.
+OPP-003,ACC-001,Qualification,61000,2026-11-09,Re-confirm timeline with procurement,"OVERDUE: close date passed, deal still open. Procurement freeze mentioned."
+OPP-004,ACC-015,Proposal,15000,2026-12-11,None scheduled,STALLED: no reply to the last three emails.
+OPP-005,ACC-002,Proposal,51500,2026-12-11,Confirm budget with finance,Pilot with 10 users went well; expansion discussed.
+OPP-006,ACC-002,Proposal,88500,2026-12-21,Confirm budget with finance,Decision maker on leave until next month.
+OPP-007,ACC-003,Prospecting,34000,2027-02-16,Book technical demo,New IT director joined; needs a fresh intro.
+OPP-008,ACC-003,Proposal,10000,2027-02-20,Book technical demo,Pilot with 10 users went well; expansion discussed.
+OPP-009,ACC-004,Proposal,75500,2027-01-21,Agree pilot scope,AT RISK: Asked for a security questionnaire before next call.
+OPP-010,ACC-004,Negotiation,20500,2027-01-20,Book technical demo,AT RISK: Requested references from a similar-sized customer.
+OPP-011,ACC-005,Proposal,54000,2027-03-06,Confirm budget with finance,Interested in bundling support with licences.
+OPP-012,ACC-005,Closed Won,14500,2026-10-24,Closed,Project cancelled after a re-org.
+OPP-013,ACC-006,Prospecting,57000,2026-12-20,Share security questionnaire,New IT director joined; needs a fresh intro.
+OPP-014,ACC-006,Closed Lost,70500,2026-10-30,Closed,Project cancelled after a re-org.
+OPP-015,ACC-007,Prospecting,71500,2027-02-26,Confirm budget with finance,Competing vendor is cheaper; we lead on integrations.
+OPP-016,ACC-007,Proposal,61000,2026-12-15,Send revised proposal,Asked for a security questionnaire before next call.
+OPP-017,ACC-008,Proposal,16500,2027-02-03,Agree pilot scope,New IT director joined; needs a fresh intro.
+OPP-018,ACC-008,Qualification,72000,2026-12-20,Share security questionnaire,Decision maker on leave until next month.
+OPP-019,ACC-009,Proposal,49000,2027-02-01,Confirm budget with finance,AT RISK: Budget approved for Q1; waiting on legal review.
+OPP-020,ACC-009,Closed Won,13500,2026-10-28,Closed,Signed after a two-week pilot.
+OPP-021,ACC-010,Prospecting,63500,2027-03-08,Share security questionnaire,AT RISK: New IT director joined; needs a fresh intro.
+OPP-022,ACC-010,Closed Lost,42500,2026-10-05,Closed,Lost on price to an incumbent vendor.
+OPP-023,ACC-011,Proposal,31500,2027-01-26,Send revised proposal,AT RISK: Requested references from a similar-sized customer.
+OPP-024,ACC-011,Qualification,83500,2027-02-14,Send revised proposal,AT RISK: Pilot with 10 users went well; expansion discussed.
+OPP-025,ACC-012,Closed Won,12000,2026-11-16,Closed,Won with a multi-year commitment.
+OPP-026,ACC-012,Proposal,19500,2027-02-24,Agree pilot scope,Requested references from a similar-sized customer.
+OPP-027,ACC-013,Negotiation,27000,2027-01-01,Send revised proposal,Requested references from a similar-sized customer.
+OPP-028,ACC-013,Closed Lost,55500,2026-10-14,Closed,Project cancelled after a re-org.
+OPP-029,ACC-014,Prospecting,46000,2027-02-25,Send revised proposal,AT RISK: Competing vendor is cheaper; we lead on integrations.
+OPP-030,ACC-014,Closed Won,20500,2026-10-26,Closed,Project cancelled after a re-org.

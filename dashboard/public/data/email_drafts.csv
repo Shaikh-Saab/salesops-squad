@@ -1,0 +1,11 @@
+draft_id,account_id,subject,body,status,approved_by
+DRF-001,ACC-001,Next steps with Contoso,"Hi team, thanks for your time today. As agreed, the next step is share security questionnaire. Could you confirm a slot this week? Best regards, Demo Sales Rep",approved,Demo Approver (demo@example.com)
+DRF-002,ACC-008,Next steps with Woodgrove Bank,"Hi team, thanks for your time today. As agreed, the next step is share security questionnaire. Could you confirm a slot this week? Best regards, Demo Sales Rep",pending,
+DRF-003,ACC-004,Next steps with Tailspin Toys,"Hi team, thanks for your time today. As agreed, the next step is share security questionnaire. Could you confirm a slot this week? Best regards, Demo Sales Rep",pending,
+DRF-004,ACC-012,Next steps with Coho Winery,"Hi team, thanks for your time today. As agreed, the next step is agree pilot scope. Could you confirm a slot this week? Best regards, Demo Sales Rep",sent,Demo Approver (demo@example.com)
+DRF-005,ACC-014,Next steps with Margie's Travel,"Hi team, thanks for your time today. As agreed, the next step is book technical demo. Could you confirm a slot this week? Best regards, Demo Sales Rep",rejected,
+DRF-006,ACC-001,Next steps with Contoso,"Hi team, thanks for your time today. As agreed, the next step is book technical demo. Could you confirm a slot this week? Best regards, Demo Sales Rep",sent,Demo Approver (demo@example.com)
+DRF-007,ACC-008,Next steps with Woodgrove Bank,"Hi team, thanks for your time today. As agreed, the next step is confirm budget with finance. Could you confirm a slot this week? Best regards, Demo Sales Rep",approved,Demo Approver (demo@example.com)
+DRF-008,ACC-004,Next steps with Tailspin Toys,"Hi team, thanks for your time today. As agreed, the next step is send revised proposal. Could you confirm a slot this week? Best regards, Demo Sales Rep",sent,Demo Approver (demo@example.com)
+DRF-009,ACC-012,Next steps with Coho Winery,"Hi team, thanks for your time today. As agreed, the next step is share security questionnaire. Could you confirm a slot this week? Best regards, Demo Sales Rep",sent,Demo Approver (demo@example.com)
+DRF-010,ACC-014,Next steps with Margie's Travel,"Hi team, thanks for your time today. As agreed, the next step is share security questionnaire. Could you confirm a slot this week? Best regards, Demo Sales Rep",rejected,
